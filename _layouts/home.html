@@ -4,11 +4,12 @@ layout: base
 
            
 <div class="home">
-   <button class="border left-round right" data-ui="#dialog-top">
+   <nav class="right-align">
+   <button class="border right" data-ui="#dialog-top">
     <i>search</i>
   </button>
+     </nav>
   <dialog class="top" id="dialog-top">
-  <h5>Top</h5>
   <div>
         {% if site.post_search %}
   {% include search.html %}
