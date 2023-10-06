@@ -5,13 +5,9 @@ layout: base
            
 <div class="home">
     {% if site.post_search %}
-  
-          <a class="nav-link" id="nav-search-link" href="#" title="Search">
-            <span id="nav-search-icon" class="fa fa-search"></span>
-            <span id="nav-search-text">Search</span>
-          </a>
+  {% include search.html %}
            {%- endif -%}
-    {% include search.html %}
+   
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
