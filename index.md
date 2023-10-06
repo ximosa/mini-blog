@@ -65,7 +65,7 @@ Ya sea que necesites un nuevo sitio web desde cero, una actualización de tu sit
             <h5>Diseñador y desarrollador Web</h5>
             <p>Creamos sitios web bonitos y modernos con las mejores herramientas y componentes, rápidos, seguros y optimizados para el SEO</p>
             <nav>
-                <a href="https://www.webgae.com/p/sobre-nosotros.html">  <button>Ver más <i class="extra">pinch</i></button></a>  <a href="https://www.webgae.com/p/mis-trabajos.html">  <button class="class="tertiary"">Ver Trabajos <i class="extra">app_registration</i></button></a> 
+                <a href="https://www.webgae.com/p/sobre-nosotros.html">  <button>Ver más <i class="extra">pinch</i></button></a>  <a href="https://www.webgae.com/p/mis-trabajos.html">  <button class="tertiary"">Ver Trabajos <i class="extra">app_registration</i></button></a> 
             </nav>
           </div>
       </div>    
