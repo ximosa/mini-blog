@@ -2,17 +2,17 @@
 layout: base
 ---
 
-            <a class="nav-link" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
-        {%- endif -%}
-      {%- endfor -%}
+           
+<div class="home">
+   <a class="nav-link" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
       {% if site.post_search %}
         <li class="nav-item">
           <a class="nav-link" id="nav-search-link" href="#" title="Search">
             <span id="nav-search-icon" class="fa fa-search"></span>
             <span id="nav-search-text">Search</span>
           </a>
+           {%- endif -%}
     {% include search.html %}
-<div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
