@@ -1,15 +1,49 @@
 <footer class="site-footer h-card">
+  <div class="center-align middle-align">
+    <button data-ui="#dialog-modal">Contactar con Experto Wordpress </button>
+      </div>
+      <div class="large-space"></div>
+      <dialog class="modal" id="dialog-modal">
+        <form action="https://formspree.io/f/xjvqpgzq" method="POST">
+          <!-- Nombre -->
+        
+          <div class="field label extra border">
+            <input type="text" id="nombre" name="nombre" required />
+            <label>Su nombre</label>
+          </div>
+        
+          <!-- Correo electrónico -->
+        
+          <div class="field label extra border">
+            <input type="email" id="email" name="_replyto" required />
+            <label>Correo Electrónico:</label>
+          </div>
+        
+          <!-- Mensaje -->
+        
+          <div class="field textarea label border extra">
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <label>Label</label>
+          </div>
+        
+          <!-- Botón de Enviar -->
+          <button type="submit">Enviar</button>
+        </form>
+         
+          <nav class="right-align">
+            <button class="border" data-ui="#dialog-modal">Cancelar</button>
+          </nav>
+        </dialog>
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
+ 
       <div class="footer-col">
         <p class="feed-subscribe">
           <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
-            <svg class="svg-icon orange">
-              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg><span>Subscribe</span>
+            <i class="pink-text">rss_feed</i><span>Subscribe</span>
           </a>
         </p>
       {%- if site.author %}
@@ -19,6 +53,7 @@
           {% endif -%}
           {% if site.author.email -%}
             <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          <li><a href="https://www.webgae.com/" target="_blank">Creado por webgae.com</a></li>
           {%- endif %}
         </ul>
       {%- endif %}
