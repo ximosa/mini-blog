@@ -4,12 +4,14 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-  
-
     {%- if titles_size > 0 -%}
+  
       <nav class="top">
+        <button data-ui="#dialog-navigation" class="circle transparent">
+          <i>menu</i>
+        </button>
         <h5 class="max"> <a rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h5>
-     
+        
          
             <button class="transparent">
               <span>Menú</span>
@@ -30,3 +32,46 @@
     {%- endif -%}
   </div>
 </header>
+<dialog id="dialog-navigation" class="left">
+  <header>
+    <nav>
+      <button data-ui="#dialog-navigation" class="transparent circle large">
+        <i>close</i>
+      </button>
+      <h5 class="max">Menú</h5>
+    </nav>
+  </header>
+  <a class="row round" href="https://www.webgae.com/blog">
+    <i>inbox</i>
+    <span>Blog</span>
+    <div class="max"></div>
+  </a>
+  <a class="row round" href="https://chat.webgae.com/" target="_blank">
+    <i>send</i>
+    <span>Chat</span>
+    <div class="max"></div>
+
+  </a>
+  <a class="row round" href="https://www.webgae.com/p/mis-trabajos.html">
+    <i>terminal</i>
+    <span>Trabajos</span>
+  </a>
+  <a class="row round" href="https://experto-google.blogspot.com/" target="_blank">
+    <i>add_to_drive</i>
+    <span>Expertos Google</span>
+  </a>
+  <div class="small-divider"></div>
+  <div class="row">Otros</div>
+  <a class="row round" href="https://www.expertowordpress.org/" target="_blank">
+    <i>build_circle</i>
+    <span>Experto Wordpress</span>
+  </a>
+  <a class="row round" href="https://www.webgae.com/p/precios.html">
+    <i>euro_symbol</i>
+    <span>Precios</span>
+  </a>
+  <a class="row round" href="https://www.webgae.com/p/servicios_17.html">
+    <i>design_services</i>
+    <span>Servicios</span>
+  </a>
+</dialog>

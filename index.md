@@ -1,10 +1,10 @@
 ---
 title: Inicio
-layout: base
+layout: ancho
 ---
+   <div class="large-space"></div>
+   <div class="large-space"></div>
 
-<div class="space"></div>
-<div class="space"></div>
 <div class="center-align">
           <i class="extra">compost</i>
           <h1 class="center-align">Necesita algún tipo de trabajo</h1>
@@ -54,6 +54,22 @@ Ya sea que necesites un nuevo sitio web desde cero, una actualización de tu sit
    </article>
 </details>
 </article>
+   <div class="large-space"></div>
+<article class="no-padding">
+      <div class="grid no-space">
+        <div class="s12 m12 l6 round">
+      <img class="responsive large" src="https://blogger.googleusercontent.com/img/a/AVvXsEhwa28EUJFeE8FsrxtZ5A1qsqY6b7VHF1zsNHnKEhVLiafthN0Yc8u5DBI3cjnfOaSmWEwpCn-Dle4KjSfR_mdz7KlWM9Oz3rYQzFWA7W3LuyTPhTLwGEDXSPwmvHGEjXlvYWbyr0yfeqRDhl53FB0V9HbdylV2bceRvPqb8Wd9pBFasJKcSwFUvitYoA=w396-h311" />
+        </div>
+        <div class="s12 m12 l6">
+          <div class="padding">
+            <h5>Diseñador y desarrollador Web</h5>
+            <p>Creamos sitios web bonitos y modernos con las mejores herramientas y componentes, rápidos, seguros y optimizados para el SEO</p>
+            <nav>
+                <a href="https://www.webgae.com/p/sobre-nosotros.html">  <button>Ver más <i class="extra">pinch</i></button></a>  <a href="https://www.webgae.com/p/mis-trabajos.html">  <button class="button orange">Ver Trabajos <i class="extra">app_registration</i></button></a> 
+            </nav>
+          </div>
+      </div>    
+    <div class="large-space"></div>
 
 <dialog class="modal" id="dialog-modal">
 <form action="https://formspree.io/f/xjvqpgzq" method="POST">
