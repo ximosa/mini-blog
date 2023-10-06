@@ -1,18 +1,14 @@
 ---
+title: Sobre mi..
 layout: page
-title: About
-permalink: /about/
+permalink: "/about/"
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+# Webgae agencia de diseño y desarrollo web
+Somos desarrolladores de experiencia web que resuelven problemas y hacen crecer negocios.
+Creamos sitios web bonitos y modernos con las mejores herramientas y componentes, rápidos, seguros y optimizados para el SEO .
+Quienes somos
+Quienes somos Somos expertos en la web. Un equipo de diseñadores y desarrolladores, especialistas en marketing y estrategas que identifican problemas y brindan soluciones.
+Desde nuestra fundación en 1999, nuestra lista de clientes ha incluido una amplia gama de empresas, desde empresas de nueva creación hasta compañías grandes.
+Creemos que nuestro trabajo y nuestros negocios repetidos son una prueba positiva de nuestro compromiso de ofrecer resultados para nuestros clientes.
+Nuestra empresa se basa en la integridad, la competencia y la innovación. Simplemente hable con cualquier miembro de nuestro equipo y rápidamente sentirá algo es diferente.
