@@ -17,7 +17,7 @@ permalink: "/about/"
 Creamos sitios web bonitos y modernos con las mejores herramientas y componentes, rápidos, seguros y optimizados para el SEO .Creemos que nuestro trabajo y nuestros negocios repetidos son una prueba positiva de nuestro compromiso de ofrecer resultados para nuestros clientes.
 Nuestra empresa se basa en la integridad, la competencia y la innovación. Simplemente hable con cualquier miembro de nuestro equipo y rápidamente sentirá algo es diferente.
   </div>
-  </article>
+  
 </div>
 <div class="large-space"></div>
 <div class="grid large-space no-padding center-align middle-align">
@@ -30,3 +30,4 @@ Nuestra empresa se basa en la integridad, la competencia y la innovación. Simpl
   </div>
 </div>
 <div class="large-space"></div>
+</article>
