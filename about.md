@@ -5,6 +5,7 @@ permalink: "/about/"
 ---
 
 # Webgae agencia de diseño y desarrollo web
+<div class="large-space"></div>
 <article>
 <div class="grid large-space no-padding center-align middle-align">
   <div class="s12 m6 l6">
@@ -18,7 +19,7 @@ Nuestra empresa se basa en la integridad, la competencia y la innovación. Simpl
   </div>
   </article>
 </div>
-
+<div class="large-space"></div>
 <div class="grid large-space no-padding center-align middle-align">
   <div class="s12 m6 l6">
     #Somos expertos en la web
@@ -28,3 +29,4 @@ Nuestra empresa se basa en la integridad, la competencia y la innovación. Simpl
     <img  class="responsive small top-round" src="https://3.bp.blogspot.com/-Fu0-HjOZgBI/XqIO7ey4vfI/AAAAAAABiv8/ePTbd_o_fnwzDCE7Nsx2IsswJhVYuqZLQCLcBGAsYHQ/s1600/pale-list-is-empty.png">
   </div>
 </div>
+<div class="large-space"></div>
