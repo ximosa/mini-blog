@@ -1,6 +1,6 @@
 ---
 title: Sobre mi..
-layout: page
+layout: ancho
 permalink: "/about/"
 ---
 
